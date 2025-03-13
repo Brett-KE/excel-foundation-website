@@ -1,0 +1,233 @@
+[
+    {
+        "id": "2025-03",
+        "title": "Digital Inclusion Hackathon",
+        "date": "2025-03-18",
+        "location": "Mombasa Tech Hub",
+        "theme": "Technology for All",
+        "thumbnail": "assets/images/digital_hackathon.jpg",
+        "gallery": [
+            "assets/images/about1.jpeg",
+            "assets/images/about1.jpeg",
+            "assets/images/always.jpeg",
+            "assets/images/always.jpeg",
+            "assets/images/always.jpeg"
+        ]
+    },
+    {
+        "id": "2025-02",
+        "title": "Mental Health Advocacy Walk",
+        "date": "2025-02-22",
+        "location": "Nairobi City Park",
+        "theme": "Mental Health Awareness",
+        "thumbnail": "assets/images/mental_walk.jpg",
+        "gallery": [
+            "assets/images/mental_walk1.jpg",
+            "assets/images/mental_walk2.jpg"
+        ]
+    },
+    {
+        "id": "2025-01",
+        "title": "Job Readiness Bootcamp",
+        "date": "2025-01-14",
+        "location": "Kajiado Tech Hub",
+        "theme": "Career Development",
+        "thumbnail": "assets/images/job_bootcamp.jpg",
+        "gallery": [
+            "assets/images/job_bootcamp1.jpg",
+            "assets/images/job_bootcamp2.jpg"
+        ]
+    },
+    {
+        "id": "2024-03",
+        "title": "Tree Planting for Climate Action",
+        "date": "2024-03-25",
+        "location": "Karura Forest, Nairobi",
+        "theme": "Environmental Sustainability",
+        "thumbnail": "assets/images/tree_planting_2024.jpg",
+        "gallery": [
+            "assets/images/tree_planting_2024_1.jpg",
+            "assets/images/tree_planting_2024_2.jpg"
+        ]
+    },
+    {
+        "id": "2024-02",
+        "title": "Financial Literacy Training",
+        "date": "2024-02-17",
+        "location": "Mombasa Training Center",
+        "theme": "Economic Empowerment",
+        "thumbnail": "assets/images/financial_literacy.jpg",
+        "gallery": [
+            "assets/images/financial_literacy1.jpg",
+            "assets/images/financial_literacy2.jpg"
+        ]
+    },
+    {
+        "id": "2024-01",
+        "title": "New Year Youth Summit",
+        "date": "2024-01-12",
+        "location": "Nairobi Innovation Hub",
+        "theme": "Youth Engagement",
+        "thumbnail": "assets/images/youth_summit.jpg",
+        "gallery": [
+            "assets/images/youth_summit1.jpg",
+            "assets/images/youth_summit2.jpg"
+        ]
+    },
+    {
+        "id": "2023-06",
+        "title": "Women in Leadership Forum",
+        "date": "2023-03-22",
+        "location": "Kajiado Women's Hall",
+        "theme": "Women Empowerment",
+        "thumbnail": "assets/images/women_leadership.jpg",
+        "gallery": [
+            "assets/images/women_leadership1.jpg",
+            "assets/images/women_leadership2.jpg"
+        ]
+    },
+    {
+        "id": "2023-05",
+        "title": "Health Awareness Seminar",
+        "date": "2023-02-18",
+        "location": "Mombasa Health Center",
+        "theme": "Public Health Education",
+        "thumbnail": "assets/images/health_seminar.jpg",
+        "gallery": [
+            "assets/images/health_seminar1.jpg",
+            "assets/images/health_seminar2.jpg"
+        ]
+    },
+    {
+        "id": "2023-04",
+        "title": "Back to School Initiative",
+        "date": "2023-01-10",
+        "location": "Nairobi Public Library",
+        "theme": "Education Support",
+        "thumbnail": "assets/images/back_to_school.jpg",
+        "gallery": [
+            "assets/images/back_to_school1.jpg",
+            "assets/images/back_to_school2.jpg"
+        ]
+    },
+    {
+        "id": "2023-03",
+        "title": "Food Drive for the Homeless",
+        "date": "2022-03-10",
+        "location": "Kajiado Town",
+        "theme": "Social Welfare",
+        "thumbnail": "assets/images/food_drive.jpg",
+        "gallery": [
+            "assets/images/food_drive1.jpg",
+            "assets/images/food_drive2.jpg"
+        ]
+    },
+    {
+        "id": "2023-02",
+        "title": "Youth Empowerment Workshop",
+        "date": "2022-02-20",
+        "location": "Nairobi Community Hall",
+        "theme": "Youth Development",
+        "thumbnail": "assets/images/workshop.jpg",
+        "gallery": [
+            "assets/images/workshop1.jpg",
+            "assets/images/workshop2.jpg"
+        ]
+    },
+    {
+        "id": "2023-01",
+        "title": "Community Cleanup Drive",
+        "date": "2022-01-15",
+        "location": "Mombasa Beach",
+        "theme": "Environmental Conservation",
+        "thumbnail": "assets/images/cleanup.jpg",
+        "gallery": [
+            "assets/images/cleanup1.jpg",
+            "assets/images/cleanup2.jpg"
+        ]
+    },
+    {
+        "id": "2022-12",
+        "title": "Holiday Charity Gala",
+        "date": "2022-12-23",
+        "location": "Mombasa Conference Hall",
+        "theme": "Charity & Fundraising",
+        "thumbnail": "assets/images/charity_gala.jpg",
+        "gallery": [
+            "assets/images/charity_gala1.jpg",
+            "assets/images/charity_gala2.jpg"
+        ]
+    },
+    {
+        "id": "2022-11",
+        "title": "Feeding Program",
+        "date": "2022-11-10",
+        "location": "Nairobi Slum Area",
+        "theme": "Hunger Relief",
+        "thumbnail": "assets/images/feeding.jpg",
+        "gallery": [
+            "assets/images/feeding1.jpg",
+            "assets/images/feeding2.jpg"
+        ]
+    },
+    {
+        "id": "2022-10",
+        "title": "Education Support Initiative",
+        "date": "2022-10-21",
+        "location": "Kajiado Primary School",
+        "theme": "Education & Literacy",
+        "thumbnail": "assets/images/education.jpg",
+        "gallery": [
+            "assets/images/education1.jpg",
+            "assets/images/education2.jpg"
+        ]
+    },
+    {
+        "id": "2022-09",
+        "title": "Community Health Camp",
+        "date": "2022-09-14",
+        "location": "Mombasa Health Center",
+        "theme": "Healthcare Access",
+        "thumbnail": "assets/images/health_camp.jpg",
+        "gallery": [
+            "assets/images/health_camp1.jpg",
+            "assets/images/health_camp2.jpg"
+        ]
+    },
+    {
+        "id": "2022-08",
+        "title": "Digital Skills Training",
+        "date": "2022-08-19",
+        "location": "Nairobi ICT Hub",
+        "theme": "Tech Education",
+        "thumbnail": "assets/images/digital_skills.jpg",
+        "gallery": [
+            "assets/images/digital_skills1.jpg",
+            "assets/images/digital_skills2.jpg"
+        ]
+    },
+    {
+        "id": "2022-07",
+        "title": "Women Entrepreneurship Forum",
+        "date": "2022-07-25",
+        "location": "Kajiado Women's Center",
+        "theme": "Women Empowerment",
+        "thumbnail": "assets/images/women_forum.jpg",
+        "gallery": [
+            "assets/images/women_forum1.jpg",
+            "assets/images/women_forum2.jpg"
+        ]
+    },
+    {
+        "id": "2022-06",
+        "title": "Sports for Change",
+        "date": "2022-06-12",
+        "location": "Nairobi Sports Club",
+        "theme": "Sports & Community",
+        "thumbnail": "assets/images/sports.jpg",
+        "gallery": [
+            "assets/images/sports1.jpg",
+            "assets/images/sports2.jpg"
+        ]
+    }
+]

@@ -1,0 +1,487 @@
+/* ========== GLOBAL STYLES ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ========== HEADER STYLES ========== */
+header {
+    background: #0056b3;
+    color: white;
+    padding: 15px 5%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Navigation Styling */
+.nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ffcc00;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    max-width: 120px;
+    object-fit: contain;
+}
+
+/* ========== HERO SECTION ========== */
+.hero-about {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height:100vh;
+    padding: 20px;
+    overflow: hidden; /* Prevent video overflow */
+}
+
+/* Background Video */
+.hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures video fills the section */
+    z-index: -1;
+}
+
+/* Hero Content */
+.hero-content {
+    position: relative;
+    background: rgba(0, 0, 0, 0.6); /* Slightly darker for better readability */
+    padding: 30px 40px;
+    border-radius: 12px;
+    color: white;
+    max-width: 80%;
+}
+
+/* Main Heading */
+.hero-content h1 {
+    font-size: 50px; /* Increased size for better emphasis */
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4); /* Improves contrast */
+}
+
+/* Subtitle */
+.hero-content p {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-content {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+}
+
+
+
+/* ========== ABOUT SECTION ========== */
+.about-overview {
+    padding: 60px 5%;
+    text-align: center;
+    background: #fff;
+}
+
+.about-overview .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.media-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.media-gallery img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* ========== MISSION & VISION SECTION ========== */
+.mission-vision {
+    background: #eef;
+    padding: 60px 5%;
+    text-align: center;
+}
+
+.mission-vision h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center; /* Ensures it is centered */
+    width: 100%; /* Ensures it spans the full width */
+    display: block; /* Prevents any inline display issues */
+}
+
+
+/* Flexbox Layout for Mission & Vision */
+.mission-vision .content-box {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Individual Boxes */
+.mission, .vision {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    min-width: 300px;
+    text-align: center;
+}
+
+/* Responsive Fix: Stack Boxes on Smaller Screens */
+@media (max-width: 768px) {
+    .mission-vision .content-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mission, .vision {
+        width: 90%;
+    }
+}
+
+/* ========== OBJECTIVES SECTION ========== */
+/* Section Styling */
+.objectives {
+    padding: 60px 5%;
+    text-align: center;
+}
+
+/* Centered Section Title */
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Container for Image + List */
+.objectives-container {
+    display: flex;
+    align-items: stretch; /* Ensures image height matches list */
+    justify-content: center;
+    gap: 50px;
+    text-align: left;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+/* Left: Image Styling */
+.objectives-image img {
+    width: 400px; /* Adjust based on preference */
+    max-width: 100%;
+    height: auto; /* Ensures image scales */
+    object-fit: cover; /* Maintains aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Right: List Styling */
+.objectives-list {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    max-width: 600px;
+}
+.objectives-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    padding: 10px 0;
+    line-height: 1.5;
+    flex-wrap: wrap; /* Ensures text wraps correctly */
+    text-align: left;
+}
+
+
+/* Custom Bullet Points */
+.objectives-list li {
+    font-size: 18px;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 1.5;
+}
+
+/* Add Tick Symbol */
+.objectives-list li::before {
+    content: "✔"; /* Unicode checkmark */
+    color: #2ecc71; /* Green color */
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+
+/* ========== ACHIEVEMENTS SECTION ========== */
+/* ========== ACHIEVEMENTS SECTION ========== */
+.achievements {
+    background: #f4f4f9;
+    padding: 60px 5%;
+    text-align: center;
+}
+
+/* Centered Heading with Styling */
+.achievements h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+    color: #222;
+    text-align: center; /* Ensures it is centered */
+    width: 100%; /* Ensures it spans the full width */
+    display: block; /* Prevents any inline display issues */
+}
+
+/* Underline Effect Below Heading */
+.achievements h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #ffcc00; /* Accent color */
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+/* Achievements Grid */
+.achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    justify-content: center;
+}
+
+/* Individual Achievement Item */
+.achievement-item {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.achievement-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading inside the achievement item */
+.achievement-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+/* Text inside the achievement item */
+.achievement-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .achievements-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .achievement-item {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+
+/* ========== CONTACT SECTION ========== */
+.get-involved {
+    background: linear-gradient(to right, #002D62, #003366); /* Gradient for a modern look */
+    color: white;
+    text-align: center;
+    padding: 60px 5%;
+}
+
+.get-involved h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adds spacing between text and emoji */
+}
+
+/* Content Box */
+.get-involved .content-box {
+    background: white;
+    color: #002D62;
+    padding: 25px 40px;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    transition: transform 0.3s ease-in-out;
+    font-size: 18px;
+}
+
+.get-involved .content-box:hover {
+    transform: translateY(-5px); /* Slight hover effect */
+}
+
+/* Contact Us Button */
+.get-involved .content-box a {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 8px 16px;
+    background: #ffcc00; /* Bright color for contrast */
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out;
+}
+
+.get-involved .content-box a:hover {
+    background: #e6b800;
+}
+
+/* ========== FOOTER ========== */
+footer {
+    background: #d4d6db;
+    color: white;
+    padding: 30px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Footer Logo */
+.footer-logo img {
+    height: 60px;
+}
+
+/* Footer Navigation */
+.footer-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #ffcc00;
+}
+
+/* Social Media in Footer */
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social a img {
+    width: 30px;
+    transition: transform 0.3s ease;
+}
+
+.footer-social a img:hover {
+    transform: scale(1.2);
+}
+
+/* ====== RESPONSIVE FOOTER ====== */
+@media (max-width: 900px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .footer-social {
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
